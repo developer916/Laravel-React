@@ -1,0 +1,72 @@
+.events {
+  .search {
+    padding: 15px;
+    border-bottom: 1px solid #e1e6ef;
+  }
+
+  .tab-pane {
+    padding-bottom: 0;
+  }
+  
+  .body {
+    .card {
+      .card-body {
+        p {
+          margin-bottom: 2px;
+        }
+      }
+      .card-footer {
+        padding: 0;
+
+        .desc, .but {
+          padding: 10px 0;
+
+          p {
+            margin-bottom: 5px;
+          }
+          h5 {
+            margin-bottom: 0;
+          }
+        }
+        .but {
+          cursor: pointer;
+          border-width: medium 1px 1px medium;
+          -moz-border-bottom-colors: none;
+          -moz-border-image: none;
+          -moz-border-left-colors: none;
+          -moz-border-right-colors: none;
+          -moz-border-top-colors: none;
+        }
+        .but.edit {
+          box-shadow: 0 1px 2px rgba(167, 181, 208, 0.8) inset;
+          background: none repeat scroll 0 0 rgba(167, 181, 208, 0.3);
+          border-color: -moz-use-text-color #9faecb #9faecb -moz-use-text-color;
+
+          &:hover {
+            background: none repeat scroll 0 0 rgba(167, 181, 208, 1);
+          }
+        }
+        .but.share {
+          box-shadow: 0 1px 2px rgba(67, 182, 215, 0.8) inset;
+          background: none repeat scroll 0 0 rgba(67, 182, 215, 0.3);
+          border-color: -moz-use-text-color #39b2d5 #39b2d5 -moz-use-text-color;
+
+          &:hover {
+            background: none repeat scroll 0 0 rgba(67, 182, 215, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+.add-event {
+  .DateRangePicker_picker {
+    z-index: 10;
+  }
+  .add-notification-button{
+    margin-top: 10px;
+    width:150px;
+    display: inline-block;
+  }
+}

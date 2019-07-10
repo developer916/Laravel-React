@@ -1,0 +1,22 @@
+.world-map {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e1e6ef;
+  margin-bottom: 1.5rem;
+  height: calc(100vh - 180px);
+
+  & > div {
+    margin: 0 auto;
+  }
+
+  & > .custom-card-header {
+    width: 100%;
+  }
+}

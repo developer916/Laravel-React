@@ -1,0 +1,119 @@
+.subscription-html-code-generator {
+  .notification-container {
+    top: 60px !important;
+  }
+
+  .subscription-html-builder {
+    padding: 0 1rem;
+
+    .lhtml-editor, .lhtml-style {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    .lhtml-style {
+      padding: 0;
+      box-shadow: -2px 0px 10px rgba(70, 58, 60, 0.46);
+      background-color: #463a3c;
+      color: #b9a5a6;
+
+      .tab-content {
+        height: 100%;
+        background-color: #463a3c;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+      }
+
+      .lhtml-style-obj-group {
+        .lhtml-style-obj-each {
+          padding-top: 3px;
+
+          &:first-child {
+            padding-top: 0
+          }
+
+          &.lhtml-style-icon {
+            .lhtml-style-obj-value {
+              padding-top: 8px;
+            }
+          }
+        }
+      }
+    }
+
+    .lhtml-container, .lhtml-row, .lhtml-column {
+      outline: 1px dashed rgba(170,170,170,0.7);
+    }
+    .lhtml-container {
+      min-height: 35px;
+
+      .lhtml-add-row {
+        .lhtml-actions-button {
+          text-align: right;
+        }
+
+        .btn {
+          border-radius: 20px;
+          border: none;
+        }
+      }
+
+      .lhtml-view-code-body {
+        padding: 10px 15px;
+        border-radius: 5px;
+        background: #263238;
+        color: white;
+      }
+
+      .lhtml-row {
+        position: relative;
+
+        .lhtml-add-button, .lhtml-delete-button {
+          border-radius: 20px;
+          border: none;
+          font-size: 13px;
+          padding: 3px 8px;
+
+          position: absolute;
+          top: 5px;
+          left: calc(100% - 174px);
+
+          display: none;
+        }
+
+        .lhtml-add-button {
+          left: calc(100% - 250px);
+        }
+
+        .lhtml-delete-button {
+          left: calc(100% - 107px);
+          width: 100px;
+        }
+
+        .lhtml-column {
+          float: left;
+
+          .lhtml-button {
+            i.fa {
+              padding-right: 8px;
+            }
+          }
+        }
+      }
+
+      &:hover, .lhtml-row:hover, .lhtml-column:hover, .lhtml-button:hover {
+        outline: 1px solid #3b97e3;
+      }
+
+      .lhtml-selected {
+        outline: 2px solid #3b97e3 !important;
+        outline-offset: -1px;
+
+        .lhtml-add-button, .lhtml-delete-button {
+          display: block;
+        }
+      }
+    }
+  }
+}

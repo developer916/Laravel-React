@@ -1,0 +1,97 @@
+.public-detail-page {
+  header {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 180px;
+    padding: 0;
+  }
+
+  .company-logo {
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 80px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+  }
+
+  .intro-nav {
+    height: 65px;
+    background-color: #f9f9fa;
+    box-shadow: 0 1px 2px 0 #d6d6d6;
+    padding: 0 15px;
+
+    div, .button-group, .btn {
+      height: 100%;
+    }
+
+    .button-group, .btn {
+      margin: 0;
+    }
+  }
+
+  .container-fluid {
+    .left-side, .right-side {
+      padding-top: 70px;
+    }
+  }
+
+  .width-auto-but {
+    width: auto;
+  }
+
+  .events-part {
+    margin-top: 30px;
+  }
+
+  .events-table {
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+    .event-tr {
+      height: 55px;
+      line-height: 55px;
+      border-left: 1px solid #d6d6d6;
+      border-right: 1px solid #d6d6d6;
+      border-bottom: 1px solid #d6d6d6;
+    }
+    .event-tr:first-child {
+      border-top: 1px solid #d6d6d6;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    .event-tr:last-child {
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+
+    .event-td {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+
+      .detail-view-event {
+        margin-top: 8.5px;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 585px) {
+  .public-detail-page {
+    .company-logo {
+      width: 100%;
+      height: 200px;
+      margin-left: 0px;
+      margin-top: 80px;
+      border: 1px solid lightgrey;
+      border-radius: 20px;
+    }
+    .intro-nav {
+      margin-top: 120px;
+    }
+
+  }
+}

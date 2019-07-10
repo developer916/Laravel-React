@@ -1,0 +1,46 @@
+.custom-card-header {
+  padding: .75rem 1.25rem;
+  background-color: #f9f9fa;
+  border-bottom: 1px solid #e1e6ef;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+
+  .actions-group {
+    margin: 0;
+    list-style-type: none;
+    padding-left: 20px;
+
+    li {
+      display: inline;
+      padding: 5px 15px;
+      border-left: 1px solid lightgray;
+      border-top: 1px solid lightgray;
+      border-bottom: 1px solid lightgray;
+      cursor: pointer;
+
+      &.active, &:hover {
+        background: lightslategrey;
+        color: white;
+      }
+
+      &:first-child {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      &:last-child {
+        border-right: 1px solid lightgray;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+    }
+  }
+
+  .actions-select {
+    width: auto;
+    height: 23px;
+    font-size: 13px;
+    padding: 0;
+  }
+}

@@ -1,0 +1,13 @@
+.react-bs-table-container {
+  .react-bs-table-tool-bar {
+    .form-control, .btn-group {
+      height: calc(2.0625rem + 2px) !important;
+    }
+  }
+}
+.super-bootstrap-table-actions-but {
+  position: absolute;
+  top: 66px;
+  left: 20px;
+  z-index: 999;
+}

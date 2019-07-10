@@ -1,0 +1,39 @@
+// Loads Styles from node_modules
+@import "~flag-icon-css/css/flag-icon.min.css";
+@import "~font-awesome/scss/font-awesome";
+@import "~simple-line-icons/css/simple-line-icons.css";
+
+// Loads Custom Styles
+@import "./style";
+@import "./core/_dropdown-menu-right";
+
+@import "./pages/auth";
+@import "./pages/calendars";
+@import "./pages/public-detail-page";
+@import "./pages/admin";
+@import "./pages/custom-card-header";
+@import "./pages/worldmap";
+@import "./pages/dashboard";
+@import "./pages/events";
+@import "./pages/code";
+@import "./pages/subscribe-help-modal";
+
+/*
+ * Dashboard
+ */
+
+header {
+  padding: 30px 0;
+}
+
+section {
+  padding: 30px 0;
+}
+
+.has-shadow {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.show > .dropdown-menu {
+  display: block;
+}
