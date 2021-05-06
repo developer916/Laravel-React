@@ -68,7 +68,7 @@
     "react-dates": "^18.1.1",
     "react-document-title": "^2.0.3",
     "react-dom": "^16.4.2",
-    "react-draft-wysiwyg": "^1.12.13",
+    "react-draft-wysiwyg": "^1.14.6",
     "react-google-maps": "^9.4.5",
     "react-i18next": "^10.8.1",
     "react-ladda": "^6.0.0",
